@@ -5,6 +5,10 @@ npm install
 
 # Check DB available and execute the following commands
 
+CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'password123';
+GRANT ALL PRIVILEGES ON *.* TO 'appuser'@'localhost';
+FLUSH PRIVILEGES;
+
 CREATE DATABASE simpledb;
 
 USE simpledb;
