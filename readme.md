@@ -1,6 +1,6 @@
 # Steps to Install dependencies
 
-cd backend
+cd backend &&
 npm install
 
 # Check DB available and execute the following commands
@@ -17,5 +17,5 @@ CREATE TABLE users (
 
 # start backend
 
-cd backend
+cd backend && 
 node server.js
