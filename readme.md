@@ -1,12 +1,15 @@
 # Steps to Install dependencies
 
-cd backend &&
+cd backend
+
 npm install
 
 # Check DB available and execute the following commands
 
 CREATE USER 'appuser'@'localhost' IDENTIFIED BY 'password123';
+
 GRANT ALL PRIVILEGES ON *.* TO 'appuser'@'localhost';
+
 FLUSH PRIVILEGES;
 
 CREATE DATABASE simpledb;
@@ -21,5 +24,6 @@ CREATE TABLE users (
 
 # start backend
 
-cd backend && 
+cd backend
+
 node server.js
