@@ -1,3 +1,12 @@
+# Install mysql on windows
+
+
+https://dev.mysql.com/downloads/installer/
+
+# Install workbench on windows
+
+https://dev.mysql.com/downloads/workbench/
+
 # Steps to Install dependencies
 
 cd backend
